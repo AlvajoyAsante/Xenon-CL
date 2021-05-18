@@ -16,4 +16,4 @@
 ------------
 
 
-Copyright&copy; Alvajoy Asante
+Copyright 2020 - 2021 &copy; Alvajoy Asante
