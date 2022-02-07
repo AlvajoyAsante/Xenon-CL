@@ -51,7 +51,8 @@
 |`INDEX`|PALETTE INDEX|
 
 ## Development
-![](https://i.imgur.com/hmNuvlA.png) ![](https://i.imgur.com/n8711b2.png) 
+![](https://i.imgur.com/hmNuvlA.png) ![](https://i.imgur.com/n8711b2.png)
+
 ![](https://i.imgur.com/WeOXaiJ.png) ![](https://i.imgur.com/FThM7Hx.gif)
 
 > *Keep up to date on the recent development by checking out the [New Discord Server](https://discord.gg/xyUZgnD4UJ "New Discord Server") or on [Cemetech Forums](https://www.cemetech.net/forum/viewtopic.php?t=15070 "Cemetech Forums"). You Can Also View The [Trello Board](https://trello.com/b/eYALDr4Q/xenon-development-c "Trello Board") For more information about the development.*
