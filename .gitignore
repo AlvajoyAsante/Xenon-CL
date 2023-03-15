@@ -1,0 +1,18 @@
+# VS Code files
+*~
+.vs/
+.vscode/
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+.DS_Store
+convimg.out
+
+[Oo]xygen/
