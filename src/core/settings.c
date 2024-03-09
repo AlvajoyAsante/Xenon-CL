@@ -55,7 +55,7 @@ void core_Setup(void)
 	gfx_SetTextBGColor(core_settings.BG);
 
 	oxy_ResetStringInputHistory();
-	oxy_ResetStringInputAutofill();
+	// oxy_ResetStringInputAutofill();
 	core_SetupAutoFill();
 
 	// dbg_sprintf(dbgout, "CL: Setup Finished!\n");
