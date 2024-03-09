@@ -2,7 +2,7 @@
 #define SETTINGS_H
 
 #define CORE_NAME "XENON CL"
-#define CORE_VERSION "a0.0.27 `Pre-Release`"
+#define CORE_VERSION "a0.0.28 `Pre-Release`"
 #define CORE_COPYRIGHT "(C) 2018-2023 ALVAJOY ASANTE"
 #define CORE_APPVAR "XENONCL"
 
