@@ -14,6 +14,6 @@
 /**
  * Contains Settings and other core data.
  */
-#include "data.h"
+#include "settings.h"
 
 #endif 

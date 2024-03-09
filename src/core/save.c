@@ -1,11 +1,6 @@
-#include <tice.h>
-#include <graphx.h>
-#include <fileioc.h>
-#include <debug.h>
-
-#include "oxygen/oxy_save.h"
-#include "data.h"
 #include "save.h"
+#include "settings.h"
+
 
 void core_Save(void)
 {

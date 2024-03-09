@@ -2,7 +2,7 @@
 #define GUI_H
 
 #include <tice.h>
-
+#include <graphx.h>
 
 /*
 * Renders the boot screen on set up.
@@ -21,11 +21,10 @@ void core_Reset(void);
 
 
 /*
-* Shows a maunal for a certain command.
+* Shows a manual for a certain command.
 * @param str command name
 */
 void core_ShowManual(char* str);
-
 
 /*
 * Scrolls the terminal screen by a certain amount and updates the cursors position.

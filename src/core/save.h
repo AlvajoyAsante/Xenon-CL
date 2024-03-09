@@ -1,6 +1,9 @@
 #ifndef SAVE_H
 #define SAVE_H
 
+#include <tice.h>
+#include <fileioc.h>
+
 /*
  * Save all core data and settings.
  */
