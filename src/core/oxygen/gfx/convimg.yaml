@@ -1,0 +1,35 @@
+palettes:
+  - name: xlibc_condensed_palette
+    max-entries: 31
+    fixed-entries:
+      - color: {index: 0, r: 0, g: 0, b: 0}
+      - color: {index: 30, r: 255, g: 255, b: 255}
+    images:
+        - xlibc_condensed
+
+converts:
+  - name: cursor
+    palette: xlibc
+    images:
+      - images/cursorA.png
+      - images/cursorB.png
+ 
+  - name: battery
+    palette: xlibc
+    images:
+      - images/charge.png
+     
+  - name: xlibc_condensed 
+    palette: xlibc_condensed_palette
+    images:
+      - images/xlibc_condensed.png
+ 
+outputs:
+  - type: c
+    include-file: oxy_sprites.h
+    palettes:
+      - xlibc_condensed_palette
+    converts:
+      - cursor
+      - battery
+      - xlibc_condensed

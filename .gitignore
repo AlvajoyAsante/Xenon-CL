@@ -15,4 +15,5 @@
 .DS_Store
 convimg.out
 
-[Oo]xygen/
+# Removed Oxygen 
+# [Oo]xygen/

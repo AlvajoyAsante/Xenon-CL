@@ -45,6 +45,31 @@ void core_RenderBoot(void)
 	}
 }
 
+/**
+ * Gets the folder position based on Oxygen file system.
+ * @retuns char* position in string form
+ */
+static char *core_GetPos(void)
+{
+	char *pos;
+	pos = (char *)malloc(sizeof(oxy_user[0].name) + sizeof(oxy_folder[core_data.folder_pos].name));
+	pos[0] = '\0';
+
+	strcat(pos, oxy_user[0].name);
+	if (core_data.folder_pos >= 0)
+	{
+		strcat(pos, ":");
+		strcat(pos, oxy_folder[core_data.folder_pos].name);
+		strcat(pos, ">");
+	}
+	else
+	{
+		strcat(pos, "~");
+	}
+
+	return pos;
+}
+
 void core_RenderHome(void)
 {
 	core_Reset();

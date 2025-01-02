@@ -61,27 +61,6 @@ void core_Setup(void)
 	// dbg_sprintf(dbgout, "CL: Setup Finished!\n");
 }
 
-char *core_GetPos(void)
-{
-	char *pos;
-	pos = (char *)malloc(sizeof(oxy_user[0].name) + sizeof(oxy_folder[core_data.folder_pos].name));
-	pos[0] = '\0';
-
-	strcat(pos, oxy_user[0].name);
-	if (core_data.folder_pos >= 0)
-	{
-		strcat(pos, ":");
-		strcat(pos, oxy_folder[core_data.folder_pos].name);
-		strcat(pos, ">");
-	}
-	else
-	{
-		strcat(pos, "~");
-	}
-
-	return pos;
-}
-
 static bool _IsFolderInFolder(const int fld_a, const int fld_b)
 {
 	int fld_b_pos = oxy_folder[fld_b].position;

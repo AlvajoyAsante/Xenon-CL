@@ -48,11 +48,4 @@ int core_RunProgram(const uint8_t i);
  */
 void core_Setup(void);
 
-/**
- * Gets the folder position based on Oxygen file system.
- * @retuns char* position in string form
- */
-char *core_GetPos(void);
-
-
 #endif /* SETTINGS_H */
