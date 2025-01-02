@@ -1,27 +1,18 @@
-# Xenon-CL
-
 ![](https://i.imgur.com/rzbh2LC.png)
 
-![](https://img.shields.io/badge/Release-BETA-green) ![](https://img.shields.io/github/issues/Overload02/Xenon-CL)
+# Xenon-CL ![](https://img.shields.io/badge/Release-BETA-green) ![](https://img.shields.io/github/issues/Overload02/Xenon-CL)
 
 > Xenon CL is a slim command line shell for the TI-84 Plus CE / TI-83 Premium CE calculators.
 
 ## Features
 
 - Simple Commands
-  - Easy to remeber commands.
-- Oxygen
-  - Xenon CL employs a robust graphical and virtual filesystem library.
-- Exucute Programs
-  -  Xenon CL can run any program on the calculator.
-- Costumizable Text and Background Color
-  - Users can alter the color of the text and the background.
+- Oxygen Library
+- Execute Programs
+- Customizable Text and Background Color
 - Small and compact
-  - Due to its small size, there is more room to install other applications.
 - Command Bank Importing
-  - Allows users to add/install commands into the main command bank.
-- File Manangement
-  - Xenon CL has the ability to manage all files and directories in Xenon.
+- Easy File Management
 
 ## Commands
 |Command|Description|
