@@ -2,7 +2,7 @@
 
 # Xenon-CL ![](https://img.shields.io/badge/Release-BETA-green) ![](https://img.shields.io/github/issues/Overload02/Xenon-CL)
 
-> Xenon CL is a slim command line shell for the TI-84 Plus CE / TI-83 Premium CE calculators.
+Xenon CL is a slim command line interface shell for the TI-84 Plus CE / TI-83 Premium CE calculators.
 
 ## Features
 
@@ -17,29 +17,21 @@
 ## Commands
 |Command|Description|
 |---    |---        |
-|`EXEC 'FL' `  |Execute file|
-|`EXIT`   |Exits Xenon CL|
-|`RM 'FL/FD'`     |Deletes a file or folder|
-|`MAN 'CMD'`    |Shows a manual for a command|
-|`PUSHDIR 'FL'`|Move into a dir|
-|`POPDIR` |Return to the previous dir in the stack|
-|`WHATIS 'FL/FD'` |Describes a program and displays the program icon|
-|`LS`     |List files in current dir|
-|`CP 'FL/FD 'FD'`     |Copy file to dir|
-|`MV 'FL/FD 'FD'`     |Move a file to a different dir|
-|`MKDIR 'NAME'`  |Make a folder or dir|
-|`PWD`    |Change/move to different directory|
-|`EDIT 'FL'`   |Tell your current dir location|
-|`COLOR 'INDEX'` |Edit a file in dir location|
+|`EXEC [FILE NAME] `  |Execute file|
+|`EXIT`   |Exit Xenon CL|
+|`RM [FILE NAME/FOLDER NAME]`     |Deletes a file or folder|
+|`MAN [COMMAND NAME]`    |Shows a manual for a command|
+|`PUSHDIR [FILE NAME]`|Move into a directory|
+|`POPDIR` |Return to the previous directory in the stack|
+|`WHATIS [FILE NAME/FOLDER NAME]` |Describes a program and displays the program icon|
+|`LS`     |List files in current directory|
+|`CP [FILE NAME/FOLDER NAME] [FOLDER NAME]`     |Copy file to directory|
+|`MV [FILE NAME/FOLDER NAME] [FOLDER NAME]`     |Move a file to a different directory|
+|`MKDIR [FOLDER NAME]`  |Make a folder or directory|
+|`PWD`    |Tell your current directory location|
+|`EDIT [FILE NAME/FOLDER ]`   |Open up the editor for an program (only works for basic programs)|
+|`COLOR [PALETTE INDEX (0 - 255)]` |changes the text color based on palette index|
 |`!!`     |Repeat previous command|
-
-|Attrib|Description|
-|---|---|
-|`FL`|FILES NAME|
-|`FD`|FOLDER NAME|
-|`CMD`|COMMAND NAME|
-|`NAME`|CREATE A NAME|
-|`INDEX`|PALETTE INDEX|
 
 ## Development
 ![](https://i.imgur.com/hmNuvlA.png) ![](https://i.imgur.com/n8711b2.png)
