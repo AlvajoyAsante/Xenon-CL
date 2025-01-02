@@ -52,4 +52,4 @@
 ------------
 
 
- Copyright &copy; 2019 - 2023, ***Alvajoy Asante***
+ Copyright &copy; 2020 - 2025, ***Alvajoy Asante***
